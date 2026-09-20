@@ -1,0 +1,20 @@
+.site-header { height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 0 max(24px, calc((100vw - 1180px) / 2)); background: #fff; border-bottom: 1px solid #e7eaf1; }
+.brand { font-weight: 800; letter-spacing: -.7px; font-size: 1.2rem; color: #1e3a8a; }
+.brand span { color: #f97316; margin-right: 4px; }
+nav { display: flex; gap: 26px; }
+nav a { font-size: .9rem; font-weight: 700; color: #5b667b; }
+nav a.active { color: #1d4ed8; }
+main { min-height: calc(100vh - 132px); }
+footer { padding: 28px 24px; text-align: center; color: #788297; font-size: .76rem; background: #fff; border-top: 1px solid #e7eaf1; }
+
+@media (max-width: 760px) {
+  .site-header { height: 64px; padding-inline: 18px; }
+  .brand { font-size: 1rem; }
+  nav { gap: 16px; }
+  nav a { font-size: .78rem; }
+}
+
+@media (max-width: 360px) {
+  .site-header { padding-inline: 13px; }
+  nav { gap: 10px; }
+}

@@ -24,6 +24,20 @@ A platform for college students to read and practice CT-1, CT-2, midsem, and end
 
 Screenshots will be added after the first frontend deployment. See [screenshot instructions](./docs/screenshots/README.md).
 
+## Release 1 frontend
+
+The public paper library is in [`frontend/`](./frontend). It intentionally has no backend,
+authentication, API keys, or provider secrets.
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Before deploying, replace the sample records in [`frontend/src/data/papers.ts`](./frontend/src/data/papers.ts)
+with collected-paper metadata and the final Cloudinary PDF URLs. Then run `npm run build`.
+
 ## Live site
 
 Add the production URL here after the first Vercel/Netlify deployment.
