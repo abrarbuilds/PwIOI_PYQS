@@ -18,6 +18,7 @@ A platform for college students to read and practice CT-1, CT-2, midsem, and end
 - [Paper inventory](./docs/PAPER-INVENTORY.md)
 - [Contribution guide](./CONTRIBUTING.md)
 - [Project structure](./PROJECT-STRUCTURE.md)
+- [Figma design](https://www.figma.com/make/2qlBqq2hKf0PIZqvUzSdUa/Design-PYQ-Hub-Web-App?t=c5MBwfWtbiGVAW7u-1)
 
 ## Screenshots
 
