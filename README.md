@@ -2,6 +2,8 @@
 
 A platform for college students to read and practice CT-1, CT-2, midsem, and endsem previous-year questions.
 
+> **Current status:** Release 1 is being built as a public PYQ library. It will let students browse, view, and download papers before Test Mode and login are added.
+
 ## Project documents
 
 - [Implementation plan](./PLAN.md)
@@ -13,3 +15,14 @@ A platform for college students to read and practice CT-1, CT-2, midsem, and end
 - [Local setup](./docs/SETUP.md)
 - [Two-person execution guide](./TEAM-WORK.md)
 - [MVP launch and midsem roadmap](./MVP-RELEASE.md)
+- [Paper inventory](./docs/PAPER-INVENTORY.md)
+- [Contribution guide](./CONTRIBUTING.md)
+- [Project structure](./PROJECT-STRUCTURE.md)
+
+## Screenshots
+
+Screenshots will be added after the first frontend deployment. See [screenshot instructions](./docs/screenshots/README.md).
+
+## Live site
+
+Add the production URL here after the first Vercel/Netlify deployment.

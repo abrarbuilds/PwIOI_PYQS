@@ -21,3 +21,26 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# React / Node.js
+node_modules/
+dist/
+coverage/
+
+# Spring Boot / Java
+target/
+*.class
+*.jar
+
+# Common IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+
+# Logs
+*.log
